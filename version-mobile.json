@@ -2,8 +2,8 @@
   "version": "8.1.2",
   "versionName": "8.1.2",
   "versionCode": 83,
-  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
-  "apkUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
-  "changelog": "Version 8.1.2 :\n- Correction Connect / Disconnect : l'application reste connectée en permanence, plus jamais « Non connecté ».\n- Surveillance continue du dossier SSK-POS-DATA + relecture automatique toutes les 2 secondes.\n- Reconnexion automatique si le surveillant s'arrête, sans aucune action du commerçant.\n- Correction de l'écriture des ventes du jour (CA, tickets, argent, cash, crédit) dans SSK-POS-LIVE.json.",
-  "notes": "Version 8.1.2 : correction Connect / Disconnect (connexion permanente, plus de déconnexion) + correction de l'écriture des ventes du jour dans SSK-POS-LIVE.json."
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.2/SSK-POS-Mobile.apk",
+  "apkUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.2/SSK-POS-Mobile.apk",
+  "changelog": "Version 8.1.2 :\n- Correction Connect / Disconnect : l'application reste connectée en permanence, plus jamais « Non connecté »",
+  "notes": "Version 8.1.2 : correction Connect / Disconnect (connexion permanente, plus de déconnexion) + correction de l'écriture des ventes"
 }
