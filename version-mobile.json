@@ -2,8 +2,8 @@
   "version": "8.1.3",
   "versionName": "8.1.3",
   "versionCode": 84,
-  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
-  "apkUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
+  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.3/SSK-POS-Mobile.apk",
+"apkUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.3/SSK-POS-Mobile.apk",
   "changelog": "Version 8.1.3 :\n- Correction de la boucle SAF / SSK-POS-DATA : l'autorisation est maintenant réellement persistée (takePersistableUriPermission avec les droits accordés).\n- Le dossier choisi est enregistré une seule fois (sync_folder_uri + sync_folder_chosen) et vérifié à chaque ouverture.\n- Plus de redemande d'autorisation à répétition : le bouton de choix n'apparaît qu'une seule fois.\n- Connexion permanente au fichier SSK-POS-LIVE.json, sans état « Non connecté ».",
   "notes": "Version 8.1.3 : correction de la boucle SAF SSK-POS-DATA + autorisation persistante enregistrée une seule fois."
 }
