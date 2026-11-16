@@ -2,8 +2,8 @@
   "version": "8.1.4",
   "versionName": "8.1.4",
   "versionCode": 85,
-  "downloadUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.4/SSK-POS-Mobile.apk",
-  "apkUrl": "https://github.com/scavatore16/SSK-POS-UPDATE-MOBILE/releases/download/v8.1.4/SSK-POS-Mobile.apk",
-  "changelog": "Version 8.1.4 : Correction définitive de la boucle SAF / SSK-POS-DATA : takePersistableUriPermission est appelé avec FLAG_GRANT_READ_URI_PERMISSION + FLAG_GRANT_WRITE_URI_PERMISSION, autorisation SAF persistante vérifiée nativement, entrée directe sans écran de dossier, preuve Debug intégrée.",
+  "downloadUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
+  "apkUrl": "https://raw.githubusercontent.com/scavatore16/SSK-POS-UPDATE-MOBILE/main/SSK-POS-Mobile.apk",
+  "changelog": "Version 8.1.4 :\n- Correction définitive de la boucle SAF / SSK-POS-DATA : takePersistableUriPermission est appelé avec FLAG_GRANT_PERSISTABLE_URI_PERMISSION, puis vérifié dans persistedUriPermissions (4 tentatives avec replis).\n- Le dossier est enregistré une seule fois (sync_folder_uri + sync_folder_chosen = true, écriture synchrone).\n- À l'ouverture, si Android détient déjà l'autorisation, l'application entre DIRECTEMENT : l'écran « Dossier Synchronisation » ne s'affiche plus jamais.\n- Plus de suppression automatique de l'autorisation : un échec passager ne détruit plus le lien (cause de la boucle).\n- Fin du message « En attente du dossier SSK-POS-DATA » qui revenait toutes les 2 secondes.\n- Bouton Debug SAF dans Paramètres : affiche sync_folder_uri, la liste persistedUriPermissions et si l'entrée a été directe.",
   "notes": "Version 8.1.4 : autorisation SAF persistante vérifiée nativement, entrée directe sans écran de dossier, preuve Debug intégrée."
 }
